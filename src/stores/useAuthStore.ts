@@ -1,5 +1,6 @@
 import { ApiError, User } from '@supabase/gotrue-js';
 import create from 'zustand';
+
 import { supabase } from '../supabase';
 
 type UserState = {

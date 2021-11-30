@@ -1,10 +1,13 @@
+import { Fragment, ReactNode } from 'react';
+
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+
 import { Disclosure, Menu, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import clsx from 'clsx';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { Fragment, ReactNode } from 'react';
 import shallow from 'zustand/shallow';
+
 import { useAuthStore } from '../../stores/useAuthStore';
 
 const nav = [

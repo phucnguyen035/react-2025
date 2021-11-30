@@ -1,6 +1,8 @@
-import { HomeIcon } from '@heroicons/react/solid';
-import Link from 'next/link';
 import { useMemo } from 'react';
+
+import Link from 'next/link';
+
+import { HomeIcon } from '@heroicons/react/solid';
 
 type BLink = { name: string; href: string };
 
